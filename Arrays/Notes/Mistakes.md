@@ -17,7 +17,7 @@ public:
             if(largest<nums[i]) {largest=nums[i];}
         }
         for(int i =1;i<nums.size();i++){
-            if(seclargest<largest && seclargest<nums[i]) {seclargest=nums[i];}
+            if(seclargest<nums[i] && largest>nums[i]) {seclargest=nums[i];}
         }
     }
 };
