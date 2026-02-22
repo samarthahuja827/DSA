@@ -1,5 +1,5 @@
 // Problem: Largest Element in Array
-// Platform: Striver
+// Platform: Striver, GFG
 // Link: https://takeuforward.org/plus/dsa/problems/largest-element , https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1
 // Difficulty: Easy
 
