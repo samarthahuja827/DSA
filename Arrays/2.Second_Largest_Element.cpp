@@ -1,4 +1,8 @@
-// SECOND LARGEST ELEMNT DUPLICATES NOT ALLOWED
+// Problem: Largest Element in Array
+// Platform: Striver, GFG
+// Link: https://takeuforward.org/plus/dsa/problems/second-largest-element , https://www.geeksforgeeks.org/problems/second-largest3735/1
+// Difficulty: Easy (Tricky acc to me)
+// SECOND LARGEST ELEMENT DUPLICATES NOT ALLOWED
 class Solution {
     public: int secondLargestElement(vector < int > & nums) {
         int largest = nums[0];
@@ -17,6 +21,9 @@ class Solution {
         return seclargest;
     }
 };
+// TC=O(N)
+// SC=O(1)
+
 //SECOND LARGEST ELEMNT DUPLICATES ALLOWED
 class Solution {
     public: int secondLargestElement(vector < int > & nums) {
@@ -35,3 +42,5 @@ class Solution {
         return seclargest;
     }
 };
+// TC=O(N)
+// SC=O(1)
