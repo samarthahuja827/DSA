@@ -1,0 +1,16 @@
+class Solution {
+public:
+    vector<int> majorityElementTwo(vector<int>& nums) {
+        map<int,int> mp;
+        vector<int> ans;
+        for(int i=0;i<nums.size();i++){
+            mp[nums[i]]++;
+        }
+        for(auto x: mp){ // x is pair<key,value>
+            if(x.second>nums.size()/3) {
+                ans.push_back(x.first);
+            }
+        }
+        return ans;
+    }
+};
